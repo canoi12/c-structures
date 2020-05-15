@@ -34,18 +34,18 @@ example for linked list:
 #include "linked_list.h"
 
 int main(int argc, char ** argv) {
-	list_t list = create_list();
+  list_t list = create_list();
+  
+  list_add(&list, 90);
+  list_add(&list, 110);
+  list_add(&list, 5);
+  list_add(&list, 20);
+  print_list(list);
 
-	list_add(&list, 90);
-	list_add(&list, 110);
-	list_add(&list, 5);
-	list_add(&list, 20);
-	print_list(list);
+  list_remove(&list, 2);
+  print_list(list);
 
-	list_remove(&list, 2);
-	print_list(list);
-
-	return 0;
+  return 0;
 }
 
 ```
