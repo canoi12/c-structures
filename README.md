@@ -1,7 +1,5 @@
 # C Structure
 
----
-
 tiny single header examples of c structures
 
 - linked list (linked_list.h)
@@ -17,8 +15,6 @@ TODO:
 - map
 
 ## examples
-
----
 
 you will find some examples in main.c file
 
